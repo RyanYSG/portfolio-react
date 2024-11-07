@@ -1,9 +1,9 @@
 import Reveal from './Reveal';
 import { motion } from 'framer-motion';
 
-function ContactCard({ name, children, icon }) {
+function ContactCard({ name, children, icon, to }) {
   return (
-    <motion.div
+    <motion.a
       whileTap={{
         scale: 1.2,
       }}
@@ -16,6 +16,8 @@ function ContactCard({ name, children, icon }) {
         damping: 10,
       }}
       className="w-full flex flex-row gap-2 cursor-pointer"
+      href={to}
+      target="_blank"
     >
       {icon}
       <section className="w-[75%] ">
@@ -27,7 +29,7 @@ function ContactCard({ name, children, icon }) {
           <p className="text-xl w-full font-thin">{children}</p>
         </Reveal>
       </section>
-    </motion.div>
+    </motion.a>
   );
 }
 

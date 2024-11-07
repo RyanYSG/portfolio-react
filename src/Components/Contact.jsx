@@ -20,6 +20,7 @@ function Contact() {
             <FiMail className="bg-pink-500 max-w-[75px] max-h-[75px] w-full h-full p-2 rounded-xl" />
           }
           name="E-MAIL"
+          to="mailto:ryanyuri64@gmail.com"
         >
           ryanyuri64@gmail.com
         </ContactCard>
@@ -28,6 +29,7 @@ function Contact() {
             <FiPhone className="bg-pink-500 max-w-[75px] max-h-[75px] w-full h-full p-2 rounded-xl" />
           }
           name="TELEFONE"
+          to="https://wa.me/5511960418052"
         >
           (11) 96041-8052
         </ContactCard>
@@ -36,6 +38,7 @@ function Contact() {
             <FiGithub className="bg-pink-500 max-w-[75px] max-h-[75px] w-full h-full p-2 rounded-xl" />
           }
           name="GITHUB"
+          to="https://github.com/RyanYSG"
         >
           @RyanYSG
         </ContactCard>

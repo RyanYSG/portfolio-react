@@ -15,7 +15,7 @@ function About() {
         <div className="h-[2px] bg-pink-500 w-[60%] xl:w-[70%]" />
       </header>
 
-      <div className="xl:flex">
+      <div className="xl:flex xl:gap-2">
         <article className="xl:flex xl:flex-col xl:gap-5 xl:w-1/2 flex flex-col gap-5">
           <Reveal>
             <p className="text-xl font-thin">

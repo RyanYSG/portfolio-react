@@ -17,21 +17,23 @@ function Skills() {
       </header>
 
       <div className="max-sm:flex max-sm:flex-col max-sm:gap-2">
-        <Reveal>
-          <p className="font-thin text-xl text-right">
-            Desenvolvedor full-stack, com conhecimento em diversas tecnologias e
-            frameworks, por exemplo: React.JS com Framer-Motion e Tailwind
-            Node.JS com Express, Sequelize e Passport.
-          </p>
-        </Reveal>
+        <div className="flex flex-col gap-2">
+          <Reveal>
+            <p className="font-thin text-xl text-right">
+              Desenvolvedor full-stack, com conhecimento em diversas tecnologias
+              e frameworks, por exemplo: React.JS com Framer-Motion e Tailwind
+              Node.JS com Express, Sequelize e Passport.
+            </p>
+          </Reveal>
 
-        <Reveal>
-          <p className="font-thin text-xl text-right">
-            Capacidade para fazer aplicacoes WEB completas, com banco de dados e
-            validaçao de dados. Juntamente a um front-end interativo e
-            responsivo.
-          </p>
-        </Reveal>
+          <Reveal>
+            <p className="font-thin text-xl text-right">
+              Capacidade para fazer aplicacoes WEB completas, com banco de dados
+              e validaçao de dados. Juntamente a um front-end interativo e
+              responsivo.
+            </p>
+          </Reveal>
+        </div>
       </div>
 
       <article className="overflow-hidden flex flex-row-reverse gap-2 w-full items-center justify-start h-fit flex-wrap">
